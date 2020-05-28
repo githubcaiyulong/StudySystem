@@ -1,6 +1,8 @@
 from tkinter import *
 from tkinter.messagebox import *
+
 from MainPage import *
+
 
 class LoginPage(object):
     def __init__(self, master=None):
@@ -29,4 +31,3 @@ class LoginPage(object):
         MainPage(self.root) 
         # else: 
         #    showinfo(title='错误', message='账号或密码错误！') 
-
